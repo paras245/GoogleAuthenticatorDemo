@@ -9,4 +9,6 @@ If you dont want to scan qr then set the manual setup key in the app then logini
 
 I had used this project for my Reference
 
+It uses TOPT
+
 https://www.c-sharpcorner.com/article/two-factor-authentication-using-google-authenticator-in-asp-net-mvc/
