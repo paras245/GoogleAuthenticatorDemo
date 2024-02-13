@@ -106,7 +106,7 @@ namespace GoogleAuthenticatorDemo.Controllers
                     TwoFactorAuthenticator TwoFacAuth = new TwoFactorAuthenticator();
 
                     //Send code on mail instead QR Code 
-                    var setupInfo = TwoFacAuth.GenerateSetupCode("tbs.bhavikshah@gmail.com", login.UserName, ConvertSecretToBytes(UserUniqueKey, false), 300);
+                    var setupInfo = TwoFacAuth.GenerateSetupCode("gojosatoru@gmail.com", login.UserName, ConvertSecretToBytes(UserUniqueKey, false), 300);
 
                     // var setupInfo = TwoFacAuth.GenerateSetupCode("TestAuthDemoTwoFactor.com", login.UserName, ConvertSecretToBytes(UserUniqueKey, false), 300);
                     Session["UserUniqueKey"] = UserUniqueKey;
